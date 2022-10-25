@@ -29,3 +29,8 @@ A 브랜치에 B 브랜치를 커밋하는 PR에서 충돌이 발생하면 A를 
 
 GitHub 페이지에는 이 conflict resolve를 도와주는 웹에디터가 있어서 직접 코드를 클론하지 않아도
 충돌을 해결할 수 있도록 해준다.
+
+### `git add`를 사용해서 파일의 일부분만 stage하기
+
+`git add -p <filename ...>` 또는 `git add --patch <filename ...>`를 사용해서
+파일의 일부분만 스테이지에 추가하는 것이 가능하다.
