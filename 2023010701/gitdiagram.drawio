@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-07T09:40:10.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="I2U0sXynwbhp2kd2je_0" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-07T10:03:14.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="DBa4GHEpq0PAr744j4c3" version="20.8.3" type="github">
   <diagram id="RCM11qTw6QA4NuLdMcPv" name="ページ1">
-    <mxGraphModel dx="1365" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="798" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,10 +15,10 @@
         <mxCell id="1_STZ75XxJV-vhdlLu-v-2" value="Untracked" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="100" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="1_STZ75XxJV-vhdlLu-v-4" value="Tracked&lt;br&gt;Unmodified" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-4" value="Tracked&lt;br&gt;Unmodified" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="160" y="40" width="100" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="1_STZ75XxJV-vhdlLu-v-6" value="Tracked&lt;br&gt;Modified" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-6" value="Tracked&lt;br&gt;Modified" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="280" y="40" width="100" height="480" as="geometry" />
         </mxCell>
         <mxCell id="1_STZ75XxJV-vhdlLu-v-14" value="Staged" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
@@ -111,7 +111,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCPFNJBg8TwlIUd04s9c-1" value="git reset --soft" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-14">
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-1" value="git reset --soft" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="360" as="sourcePoint" />
             <mxPoint x="430" y="310" as="targetPoint" />
@@ -120,7 +120,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCPFNJBg8TwlIUd04s9c-3" value="git reset (--mixed)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-6">
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-3" value="git reset (--mixed)" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="310" as="sourcePoint" />
             <mxPoint x="430" y="260" as="targetPoint" />
@@ -129,7 +129,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCPFNJBg8TwlIUd04s9c-4" value="git reset --hard" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-4">
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-4" value="git reset --hard" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="310" as="sourcePoint" />
             <mxPoint x="430" y="260" as="targetPoint" />
@@ -138,7 +138,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCPFNJBg8TwlIUd04s9c-5" value="git push --force" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-19">
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-5" value="git push --force" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="310" as="sourcePoint" />
             <mxPoint x="480" y="260" as="targetPoint" />
@@ -147,7 +147,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCPFNJBg8TwlIUd04s9c-6" value="git checkout" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-4">
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-6" value="git checkout" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="330" as="sourcePoint" />
             <mxPoint x="450" y="280" as="targetPoint" />
