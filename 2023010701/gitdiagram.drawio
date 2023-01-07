@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net" modified="2023-01-07T09:40:10.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="I2U0sXynwbhp2kd2je_0" version="20.6.0" type="github">
+  <diagram id="RCM11qTw6QA4NuLdMcPv" name="ページ1">
+    <mxGraphModel dx="1365" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-20" value="git add&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1_STZ75XxJV-vhdlLu-v-2" target="1_STZ75XxJV-vhdlLu-v-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="120" />
+              <mxPoint x="300" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-2" value="Untracked" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-4" value="Tracked&lt;br&gt;Unmodified" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="40" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-6" value="Tracked&lt;br&gt;Modified" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="40" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-14" value="Staged" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="40" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-18" value="Indexed" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="40" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-19" value="Remote Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="40" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-23" value="&lt;i&gt;수정&lt;/i&gt;" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-4" target="1_STZ75XxJV-vhdlLu-v-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="320" as="sourcePoint" />
+            <mxPoint x="310" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-24" value="git add" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-6" target="1_STZ75XxJV-vhdlLu-v-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="290" as="sourcePoint" />
+            <mxPoint x="420" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-25" value="git commit" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-14" target="1_STZ75XxJV-vhdlLu-v-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="490" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-28" value="git push" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="260" as="sourcePoint" />
+            <mxPoint x="670" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-29" value="git fetch" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-19" target="1_STZ75XxJV-vhdlLu-v-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="270" as="sourcePoint" />
+            <mxPoint x="390" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-30" value="git merge" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="280" as="sourcePoint" />
+            <mxPoint x="420" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-31" value="git pull" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-19" target="1_STZ75XxJV-vhdlLu-v-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="300" as="sourcePoint" />
+            <mxPoint x="540" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-32" value="git restore --staged" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-14" target="1_STZ75XxJV-vhdlLu-v-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="270" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_STZ75XxJV-vhdlLu-v-34" value="git restore --staged" style="endArrow=classic;html=1;rounded=0;" parent="1" source="1_STZ75XxJV-vhdlLu-v-14" target="1_STZ75XxJV-vhdlLu-v-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459.5" y="190" as="sourcePoint" />
+            <mxPoint x="220" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-1" value="git reset --soft" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="430" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-3" value="git reset (--mixed)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="310" as="sourcePoint" />
+            <mxPoint x="430" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-4" value="git reset --hard" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="310" as="sourcePoint" />
+            <mxPoint x="430" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-5" value="git push --force" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="310" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCPFNJBg8TwlIUd04s9c-6" value="git checkout" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="1_STZ75XxJV-vhdlLu-v-18" target="1_STZ75XxJV-vhdlLu-v-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
