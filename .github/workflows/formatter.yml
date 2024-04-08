@@ -1,53 +1,26 @@
----
-####################
-####################
-## Auto Formatter ##
-####################
-####################
-name: Formate Code
+name: Continuous Integration
 
-#
-# Documentation:
-# https://github.com/mezgoodle/auto-formatter
-#
-
-#############################
-# Start the job on all push #
-#############################
 on:
-  push:
-    branches: [master]
   pull_request:
-    branches-ignore: [master]
-    # Remove the line above to run when pull-requesting to master
+    branches: [master]
 
-###############
-# Set the Job #
-###############
 jobs:
-  build:
-    # Name the Job
-    name: Formate Code
-    # Set the agent to run on
+  prettier:
     runs-on: ubuntu-latest
 
-    ##################
-    # Load all steps #
-    ##################
     steps:
-      ##########################
-      # Checkout the code base #
-      ##########################
-      - name: Checkout Code
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          # Full git history is needed to get a proper list of changed files within `auto-formatter`
           fetch-depth: 0
+          ref: ${{ github.head_ref }}
+          # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
+          persist-credentials: false
 
-      ################################
-      # Run Auto-formatter against code base #
-      ################################
-      - name: Auto-Formatter
-        uses: mezgoodle/auto-formatter@v1.0.2
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.3
+        with:
+          prettier_options: --write **/*.{js,md}
+          only_changed: True
+          # Set your custom token
+          github_token: ${{ secrets.TOKEN }}
