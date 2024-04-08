@@ -24,3 +24,4 @@ jobs:
           only_changed: True
           # Set your custom token
           github_token: ${{ secrets.TOKEN }}
+          commit_options: -a
