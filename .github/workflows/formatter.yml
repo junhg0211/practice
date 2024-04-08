@@ -25,4 +25,3 @@ jobs:
           # Set your custom token
           github_token: ${{ secrets.TOKEN }}
           commit_options: -a
-          push_options: origin master
